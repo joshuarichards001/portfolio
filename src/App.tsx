@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Socials from "./components/Socials";
+import Experience from "./components/Experience";
+import styles from "./Main.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div className={styles.app}>
+      <div className={styles.content}>
+        <h1 className={styles.title}>Josh Richards</h1>
+        <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
+        <p className={styles.about}>
+          I'm a Software Engineer based in Wellington, New Zealand. I am
+          currently working at Xero as a Software Developer Intern. The majority
+          of my experience is developing with React, TypeScript, C#, and SQL
+          Server.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Socials />
+        <Experience />
+      </div>
     </div>
   );
 }
