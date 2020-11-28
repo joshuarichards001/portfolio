@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import styles from "../Main.module.css";
 import xeroImage from "../images/xero.png";
-import crAutoImage from "../images/crAuto.png";
+import crAutoImage from "../images/crAutomation.jpg";
 import financialFreedomImage from "../images/financialfreedom.png";
 import portfolioImage from "../images/portfolio.png";
 
