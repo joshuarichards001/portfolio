@@ -22,7 +22,7 @@ export default function Work(): ReactElement {
               <h4>
                 <b>Xero</b>
               </h4>
-              <p>New Invoicing</p>
+              <p>Software Developer Intern</p>
             </div>
           </div>
         </a>
@@ -38,7 +38,7 @@ export default function Work(): ReactElement {
               <h4>
                 <b>CR Automation</b>
               </h4>
-              <p>Business Intelligence Agent</p>
+              <p>Software Developer Intern</p>
             </div>
           </div>
         </a>
@@ -82,7 +82,7 @@ export default function Work(): ReactElement {
           </div>
         </a>
       </div>
-      <h3 className={styles.category}>Education</h3>
+      {/* <h3 className={styles.category}>Education</h3>
       <a
         className={styles.link}
         href="https://www.wgtn.ac.nz/explore/study-areas/software-and-computer-science/overview"
@@ -90,7 +90,7 @@ export default function Work(): ReactElement {
         rel="noreferrer"
       >
         Computer Science at Victoria University of Wellington
-      </a>
+      </a> */}
     </div>
   );
 }

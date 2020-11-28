@@ -11,8 +11,8 @@ function App() {
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
           A Software Engineer based in Wellington, New Zealand. The majority of
-          my experience is developing with React, TypeScript, C#, and SQL
-          Server.
+          my experience is developing with React, TypeScript, C#, ASP.NET and
+          SQL Server.
         </p>
         <p className={styles.about}>
           I am currently working at Xero as a Software Developer Intern. I am
