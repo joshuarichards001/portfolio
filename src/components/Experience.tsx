@@ -8,7 +8,6 @@ import portfolioImage from "../images/portfolio.png";
 export default function Work(): ReactElement {
   return (
     <div className={styles.experience}>
-      <h2 className={styles.subTitle}>Experience</h2>
       <h3 style={{marginBottom: '10px'}}>Work</h3>
       <div className={styles.subExperience}>
         <a
@@ -23,7 +22,7 @@ export default function Work(): ReactElement {
               <h4>
                 <b>Xero</b>
               </h4>
-              <p>Invoicing</p>
+              <p>New Invoicing</p>
             </div>
           </div>
         </a>
@@ -62,7 +61,7 @@ export default function Work(): ReactElement {
               <h4>
                 <b>Financial Freedom</b>
               </h4>
-              <p>Full Stack Application</p>
+              <p>Full Stack Budgeting Application</p>
             </div>
           </div>
         </a>
