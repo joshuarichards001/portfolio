@@ -8,6 +8,7 @@ export default function Socials(): ReactElement {
         target="_blank"
         rel="noreferrer"
         href="https://github.com/joshuarichards001"
+        title="GitHub"
       >
         <svg
           viewBox="0 0 15 15"
@@ -27,6 +28,7 @@ export default function Socials(): ReactElement {
         target="_blank"
         rel="noreferrer"
         href="https://linkedin.com/in/joshua-richards-ab302916b/"
+        title="Linkedin"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +43,7 @@ export default function Socials(): ReactElement {
         </svg>
       </a>
 
-      <a href="mailto:joshuarichards001@gmail.com">
+      <a href="mailto:joshuarichards001@gmail.com" title="Email">
         <svg
           viewBox="0 0 15 15"
           fill="none"
@@ -53,6 +55,25 @@ export default function Socials(): ReactElement {
             d="M.5 4.5l7 4 7-4m-13-3h12a1 1 0 011 1v10a1 1 0 01-1 1h-12a1 1 0 01-1-1v-10a1 1 0 011-1z"
             stroke="#ec8bbb"
           ></path>
+        </svg>
+      </a>
+
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://docs.google.com/document/d/1z3FlAJrECfUwa0-MHCIE9uDEvj7T4aGLa9VDYReASHU/edit?usp=sharing"
+        title="Resume/CV"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-3v-1h3v1zm0 2h-3v1h3v-1zm0 3h-10v1h10v-1zm-5-6h-5v4h5v-4z"
+            fill="#ec8bbb"
+          />
         </svg>
       </a>
     </div>
