@@ -2,6 +2,7 @@ import React from "react";
 import Socials from "./components/Socials";
 import Experience from "./components/Experience";
 import styles from "./Main.module.css";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </p>
         <Socials />
         <Experience />
+        <Skills />
       </div>
     </div>
   );
