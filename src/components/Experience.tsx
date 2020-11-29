@@ -8,7 +8,7 @@ import portfolioImage from "../images/portfolio.png";
 export default function Work(): ReactElement {
   return (
     <div className={styles.experience}>
-      <h3 style={{marginBottom: '10px'}}>Work</h3>
+      <h3 style={{ marginBottom: "10px" }}>Work</h3>
       <div className={styles.subExperience}>
         <a
           className={styles.link}
@@ -19,9 +19,7 @@ export default function Work(): ReactElement {
           <div className={styles.card}>
             <img src={xeroImage} alt="Avatar" style={{ width: "100%" }} />
             <div className={styles.cardContainer}>
-              <h4>
-                <b>Xero</b>
-              </h4>
+              <b>Xero</b>
               <p>Software Developer Intern</p>
             </div>
           </div>
@@ -35,9 +33,7 @@ export default function Work(): ReactElement {
           <div className={styles.card}>
             <img src={crAutoImage} alt="Avatar" style={{ width: "100%" }} />
             <div className={styles.cardContainer}>
-              <h4>
-                <b>CR Automation</b>
-              </h4>
+              <b>CR Automation</b>
               <p>Software Developer Intern</p>
             </div>
           </div>
@@ -58,9 +54,7 @@ export default function Work(): ReactElement {
               style={{ width: "100%" }}
             />
             <div className={styles.cardContainer}>
-              <h4>
-                <b>Financial Freedom</b>
-              </h4>
+              <b>Financial Freedom</b>
               <p>Full Stack Budgeting Application</p>
             </div>
           </div>
@@ -74,9 +68,7 @@ export default function Work(): ReactElement {
           <div className={styles.card}>
             <img src={portfolioImage} alt="Avatar" style={{ width: "100%" }} />
             <div className={styles.cardContainer}>
-              <h4>
-                <b>Portfolio</b>
-              </h4>
+              <b>Portfolio</b>
               <p>Showcase of Work</p>
             </div>
           </div>
