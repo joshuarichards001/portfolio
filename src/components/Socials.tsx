@@ -27,7 +27,7 @@ export default function Socials(): ReactElement {
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://www.linkedin.com/in/joshua-richards-profile/"
+        href="https://www.linkedin.com/in/joshua-stewart-richards/"
         title="Linkedin"
       >
         <svg
