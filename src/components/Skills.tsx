@@ -3,7 +3,7 @@ import styles from "../Main.module.css";
 
 export default function Skills(): ReactElement {
   return (
-    <div>
+    <div style={{marginTop: '10px'}}>
       <div className={styles.subExperience}>
         <div>
           <h3 className={styles.category}>Languages</h3>
