@@ -55,7 +55,7 @@ export default function Work(): ReactElement {
             />
             <div className={styles.cardContainer}>
               <b>Financial Freedom</b>
-              <p>Full Stack Budgeting Application</p>
+              <p>Budgeting Application</p>
             </div>
           </div>
         </a>
