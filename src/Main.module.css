@@ -29,8 +29,8 @@
 }
 
 .subTitle {
-  margin-bottom: 50px;
-  color: #a1a1a1;
+  margin-bottom: 20px;
+  color: #ec8bbb;
 }
 
 .about {
@@ -43,7 +43,7 @@
   margin: 0 0 30px 0;
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  width: 180px;
 }
 
 .link {
@@ -99,8 +99,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   list-style-position: inside;
   list-style-type: square;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  margin: 0 30px 20px 0;
   width: 290px;
   columns: 2;
   -webkit-columns: 2;
