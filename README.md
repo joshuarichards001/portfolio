@@ -1,10 +1,10 @@
-# My Updated Portfolio
+# Portfolio
 
 Hosted here: https://joshrichards.dev/
 
-Building from scratch using React, Typescript and CSS.
+Built from scratch using React, Typescript and CSS.
 
-To run on your computer
+### Run Locally
 
 ```git clone https://github.com/joshuarichards001/portfolio.git```
 
