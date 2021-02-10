@@ -1,6 +1,6 @@
 # My Updated Portfolio
 
-Hosted here: https://joshrichards.co/
+Hosted here: https://joshrichards.dev/
 
 Building from scratch using React, Typescript and CSS.
 
