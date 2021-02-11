@@ -1,6 +1,7 @@
 import React from "react";
 import Socials from "./components/Socials";
-import Experience from "./components/Experience";
+import WorkExperience from "./components/WorkExperience";
+import PersonalExperience from "./components/PersonalExperience";
 import styles from "./Main.module.css";
 import Skills from "./components/Skills";
 
@@ -20,7 +21,8 @@ function App() {
           working on the UI modernisation of the Invoicing product.
         </p>
         <Socials />
-        <Experience />
+        <WorkExperience />
+        <PersonalExperience />
         <Skills />
       </div>
     </div>

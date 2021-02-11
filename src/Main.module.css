@@ -1,12 +1,17 @@
 * {
-  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui,
+    sans-serif;
   padding: 0;
   background-color: #2b2a2a;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .app {
@@ -19,7 +24,7 @@
 
 .content {
   margin-left: 20px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
 .title {
@@ -48,7 +53,11 @@
 
 .link {
   text-decoration: none;
+  border: none;
+  text-align: left;
   color: #ec8bbb;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .experience {
@@ -70,11 +79,10 @@
   width: 300px;
   height: 230px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  margin-right: 30px;
-  margin-bottom: 20px;
   transition: 0.3s;
   border-radius: 5px;
   overflow: hidden;
+  font-size: 13px;
 }
 
 .card:hover {
@@ -86,13 +94,13 @@
 }
 
 .cardContainer > b {
-  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: 0.9em;
+  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    monospace;
 }
 
 .cardContainer > p {
-  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: 0.9em;
+  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    monospace;
 }
 
 .skills {
@@ -115,6 +123,7 @@
 .skills > li {
   padding: 5px;
   padding-bottom: 13px;
-  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: 0.9em;
+  font-family: Calibre, "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    monospace;
+  font-size: 13px;
 }
