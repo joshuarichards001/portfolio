@@ -30,34 +30,23 @@ export default function Xero(): ReactElement {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Xero"
-        style={{
-          overlay: {
-            background: "rgba(20, 20, 20, 0.8)",
-          },
-          content: {
-            top: "10%",
-            left: "20%",
-            right: "20%",
-            bottom: "10%",
-            background: "#2b2a2a",
-            color: "#e2e1e1",
-            border: "none",
-            padding: "50px 100px 50px 100px",
-            display: "flex",
-            flexDirection: "column",
-          },
-        }}
+        className={styles.modalContent}
+        overlayClassName={styles.modalOverlay}
       >
-        <h1>Xero - Software Developer Intern</h1>
-        <p>More Detail Coming Soon...</p>
-        <a
-          href="https://www.xero.com/nz/accounting-software/send-invoices/"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.link}
-        >
-          <img src={newInvoicingImage} alt="" style={{ width: "100%" }} />
-        </a>
+        <h1>Xero</h1>
+        <div className={styles.modalSubContent}>
+          <p>
+            Over the course of the 2020/21 summer I completed an internship at
+            the cloud accounting software Xero.
+          </p>
+          <a
+            href="https://www.xero.com/nz/accounting-software/send-invoices/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={newInvoicingImage} alt="" />
+          </a>
+        </div>
       </Modal>
     </div>
   );
