@@ -9,35 +9,31 @@ export default function Projects(): ReactElement {
       <h3 className={styles.category}>Projects</h3>
       <div className={styles.subExperience}>
         <a
-          className={styles.link}
+          className={styles.card}
           href="https://github.com/joshuarichards001/financial-freedom/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className={styles.card}>
-            <img
-              src={financialFreedomImage}
-              alt="Avatar"
-              style={{ width: "100%" }}
-            />
-            <div className={styles.cardContainer}>
-              <b>Financial Freedom</b>
-              <p>Budgeting Application</p>
-            </div>
+          <img
+            src={financialFreedomImage}
+            alt="Avatar"
+            style={{ width: "100%" }}
+          />
+          <div className={styles.cardContainer}>
+            <b>Financial Freedom</b>
+            <p>Budgeting Application</p>
           </div>
         </a>
         <a
-          className={styles.link}
+          className={styles.card}
           href="https://github.com/joshuarichards001/portfolio/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className={styles.card}>
-            <img src={portfolioImage} alt="Avatar" style={{ width: "100%" }} />
-            <div className={styles.cardContainer}>
-              <b>Portfolio</b>
-              <p>Showcase of Work</p>
-            </div>
+          <img src={portfolioImage} alt="Avatar" style={{ width: "100%" }} />
+          <div className={styles.cardContainer}>
+            <b>Portfolio</b>
+            <p>Showcase of Work</p>
           </div>
         </a>
       </div>

@@ -17,13 +17,11 @@ export default function CRAutomation(): ReactElement {
 
   return (
     <div>
-      <button className={styles.link} onClick={openModal}>
-        <div className={styles.card}>
-          <img src={crAutoImage} alt="Avatar" style={{ width: "100%" }} />
-          <div className={styles.cardContainer}>
-            <b>CR Automation</b>
-            <p>Software Developer Intern</p>
-          </div>
+      <button className={styles.card} onClick={openModal}>
+        <img src={crAutoImage} alt="Avatar" style={{ width: "100%" }} />
+        <div className={styles.cardContainer}>
+          <b>CR Automation</b>
+          <p>Software Developer Intern</p>
         </div>
       </button>
       <Modal
