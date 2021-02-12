@@ -149,13 +149,14 @@
 }
 
 .modalSubContent > p {
-  width: 50%;
-  min-width: 240px;
+  width: 45%;
+  min-width: 250px;
+  padding-right: 20px;
 }
 
 .modalSubContent > a {
   width: 50%;
-  min-width: 240px;
+  min-width: 250px;
 }
 
 .modalSubContent > a > img {
