@@ -12,13 +12,14 @@ function App() {
         <h1 className={styles.title}>Josh Richards</h1>
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand. The majority of
-          my experience is developing with React, TypeScript, C#, ASP.NET and
+          I'm a Software Engineer based in Wellington, New Zealand. The majority
+          of my experience is developing with React, TypeScript, C#, ASP.NET and
           SQL Server.
         </p>
         <p className={styles.about}>
-          I am currently working at Xero where I am
-          working on the UI modernisation of the Invoicing product.
+          I am currently an intern at the cloud accounting software company
+          Xero. Over the course of my internship I have been working on the
+          modernisation of the Invoicing platform.
         </p>
         <Socials />
         <WorkExperience />
