@@ -8,8 +8,8 @@ import ReactGa from "react-ga";
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("G-F8XJHD88H7");
-    ReactGa.pageview("");
+    ReactGa.initialize("G-7MZE650SRZ");
+    ReactGa.pageview("/");
   }, []);
 
   return (
