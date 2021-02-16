@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Socials from "./components/Socials";
 import WorkExperience from "./components/WorkExperience";
 import PersonalExperience from "./components/PersonalExperience";
 import styles from "./Main.module.css";
 import Skills from "./components/Skills";
+import ReactGa from "react-ga";
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize("G-F8XJHD88H7");
+    ReactGa.pageview("/");
+  }, []);
+
   return (
     <div className={styles.app}>
       <div className={styles.content}>
