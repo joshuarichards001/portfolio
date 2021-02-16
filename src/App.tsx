@@ -4,12 +4,12 @@ import WorkExperience from "./components/WorkExperience";
 import PersonalExperience from "./components/PersonalExperience";
 import styles from "./Main.module.css";
 import Skills from "./components/Skills";
-import ReactGa from "react-ga";
+import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("G-7MZE650SRZ");
-    ReactGa.pageview("/");
+    ReactGA.initialize("G-7MZE650SRZ");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
