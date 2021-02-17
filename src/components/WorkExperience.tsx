@@ -6,7 +6,7 @@ import Xero from "../pages/Xero";
 export default function Work(): ReactElement {
   return (
     <div className={styles.experience}>
-      <h3 style={{ marginBottom: "10px" }}>Work</h3>
+      <h3 className={styles.categoryTitle}>Work</h3>
       <div className={styles.subExperience}>
         <Xero />
         <CRAutomation />
