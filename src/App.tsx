@@ -8,8 +8,8 @@ import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize("G-7MZE650SRZ");
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.initialize("UA-178390544-2");
+    ReactGA.pageview("/");
   }, []);
 
   return (
