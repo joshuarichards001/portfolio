@@ -45,7 +45,7 @@ export default function Xero(): ReactElement {
             Google Analytics, as well as many more. I was placed within a
             product team where the primary focus was to provide the best
             Invoicing experience for our customer base of over 2 million
-            organisations. Click on the image below to learn more about the
+            organisations. Click on the image to learn more about the
             product I worked on.
           </p>
           <a

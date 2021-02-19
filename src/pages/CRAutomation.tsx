@@ -44,7 +44,7 @@ export default function CRAutomation(): ReactElement {
             providing the CR Automation's business intelligence specialist with
             the ability to monitor a number of systems simultaneously and then
             aggregate their data into one location. The program was built using
-            C#, .NET and SQL Server. Click on the image below to read this
+            C#, .NET and SQL Server. Click on the image to read this
             programs functional description.
           </p>
           <a
