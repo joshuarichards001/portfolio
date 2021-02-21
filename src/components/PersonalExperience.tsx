@@ -37,15 +37,6 @@ export default function Projects(): ReactElement {
           </div>
         </a>
       </div>
-      {/* <h3 className={styles.category}>Education</h3>
-      <a
-        className={styles.link}
-        href="https://www.wgtn.ac.nz/explore/study-areas/software-and-computer-science/overview"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Computer Science at Victoria University of Wellington
-      </a> */}
     </div>
   );
 }

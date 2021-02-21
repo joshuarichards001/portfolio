@@ -81,6 +81,13 @@ html {
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 670px) {
+  .categoryTitle {
+    align-self: center;
+    width: 300px;
+  }
+}
+
 .card {
   margin: 0 10px;
   margin-bottom: 20px;
