@@ -5,6 +5,7 @@ import PersonalExperience from "./components/PersonalExperience";
 import styles from "./Main.module.css";
 import Skills from "./components/Skills";
 import ReactGA from "react-ga";
+import Education from "./components/Education";
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ function App() {
         <Socials />
         <WorkExperience />
         <PersonalExperience />
+        <Education />
         <Skills />
       </div>
     </div>

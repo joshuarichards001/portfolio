@@ -11,7 +11,6 @@ export default function Work(): ReactElement {
       <div className={styles.subExperience}>
         <Xero />
         <CRAutomation />
-        <Vuw />
       </div>
     </div>
   );
