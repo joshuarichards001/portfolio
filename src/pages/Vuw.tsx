@@ -38,7 +38,9 @@ export default function Vuw(): ReactElement {
             Engineering degree I have filled a in a number of roles. Firstly I
             am currently a tutor in the class SWEN301 of which goes over web
             fundamentals. Additionally this semester I have been the class
-            representative for SWEN431 - Advanced programming languages. Click on the image to learn more about how VUW's Software Engineering Program is Structured.
+            representative for SWEN431 - Advanced programming languages. Click
+            on the image to learn more about how VUW's Software Engineering
+            Program is Structured.
           </p>
           <a
             href="https://www.wgtn.ac.nz/explore/study-areas/software-and-computer-science/overview"

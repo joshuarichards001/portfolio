@@ -1,7 +1,6 @@
 import React, { ReactElement } from "react";
 import styles from "../Main.module.css";
 import CRAutomation from "../pages/CRAutomation";
-import Vuw from "../pages/Vuw";
 import Xero from "../pages/Xero";
 
 export default function Work(): ReactElement {
