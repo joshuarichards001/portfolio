@@ -68,11 +68,12 @@ html {
 .experience {
   display: flex;
   flex-direction: column;
+  max-width: 620px;
 }
 
 .subExperience {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
@@ -82,6 +83,10 @@ html {
 }
 
 @media only screen and (max-width: 670px) {
+  .subExperience {
+    justify-content: space-around;
+  }
+
   .categoryTitle {
     align-self: center;
     width: 300px;
