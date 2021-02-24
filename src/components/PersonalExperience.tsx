@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import styles from "../Main.module.css";
 import financialFreedomImage from "../images/financialfreedom.png";
 import portfolioImage from "../images/portfolio.png";

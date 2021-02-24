@@ -1,7 +1,6 @@
 import React, { ReactElement } from "react";
 import Modal from "react-modal";
 import vuwImage from "../images/vuw.png";
-import newInvoicingImage from "../images/newInvoicing.png";
 import styles from "../Main.module.css";
 
 export default function Vuw(): ReactElement {
