@@ -1,41 +1,15 @@
 import { ReactElement } from "react";
 import styles from "../Main.module.css";
-import financialFreedomImage from "../images/financialfreedom.png";
-import portfolioImage from "../images/portfolio.png";
+import FinancialFreedom from "../pages/FinancialFreedom";
+import Portfolio from "../pages/Portfolio";
 
 export default function Projects(): ReactElement {
   return (
     <div className={styles.experience}>
       <h3 className={styles.categoryTitle}>Projects</h3>
       <div className={styles.subExperience}>
-        <a
-          className={styles.card}
-          href="https://github.com/joshuarichards001/financial-freedom/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={financialFreedomImage}
-            alt="Avatar"
-            style={{ width: "100%" }}
-          />
-          <div className={styles.cardContainer}>
-            <b>Financial Freedom</b>
-            <p>Budgeting Application</p>
-          </div>
-        </a>
-        <a
-          className={styles.card}
-          href="https://github.com/joshuarichards001/portfolio/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={portfolioImage} alt="Avatar" style={{ width: "100%" }} />
-          <div className={styles.cardContainer}>
-            <b>Portfolio</b>
-            <p>Showcase of Work</p>
-          </div>
-        </a>
+        <FinancialFreedom />
+        <Portfolio />
       </div>
     </div>
   );
