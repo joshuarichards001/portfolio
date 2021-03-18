@@ -184,14 +184,14 @@ html {
 }
 
 .modalSubContent > p {
-  width: 45%;
-  min-width: 350px;
+  width: 48%;
+  min-width: 250px;
   flex-grow: 1;
   margin: 5px;
 }
 
 .modalSubContent > a {
-  width: 45%;
+  width: 48%;
   min-width: 350px;
   flex-grow: 1;
   margin: 5px;
