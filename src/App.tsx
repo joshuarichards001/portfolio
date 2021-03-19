@@ -34,7 +34,7 @@ function App() {
             size={60}
           />
         </div>
-        
+
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand. The majority
