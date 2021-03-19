@@ -27,6 +27,7 @@ export default function Vuw(): ReactElement {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Vuw"
+        ariaHideApp={false}
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >

@@ -27,6 +27,7 @@ export default function FinancialFreedom(): ReactElement {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="FF"
+        ariaHideApp={false}
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >

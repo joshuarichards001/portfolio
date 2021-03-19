@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import Modal from "react-modal";
 import portfolioImage from "../images/portfolio.png";
-import portfolioGitImage from "../images/portfolioGit.png";
+import portfolioAnalyticsImage from "../images/portfolioAnalytics.png";
 import styles from "../Main.module.css";
 
 export default function Portfolio(): ReactElement {
@@ -28,6 +28,7 @@ export default function Portfolio(): ReactElement {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Portfolio"
+        ariaHideApp={false}
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
@@ -49,7 +50,7 @@ export default function Portfolio(): ReactElement {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={portfolioGitImage} alt="" />
+            <img src={portfolioAnalyticsImage} alt="" />
           </a>
         </div>
       </Modal>

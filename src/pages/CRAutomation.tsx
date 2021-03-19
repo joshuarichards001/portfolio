@@ -28,6 +28,7 @@ export default function CRAutomation(): ReactElement {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="CR Automation"
+        ariaHideApp={false}
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >

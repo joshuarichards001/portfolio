@@ -5,6 +5,8 @@
   --dark-background: #2b2a2a;
   --light-text: #e4e4e4;
   --dark-text: #b3b3b3;
+  --shadow: #141414;
+  --shadow-hover: #050505;
   --accent-color: #ec8bbb;
 }
 
@@ -43,7 +45,13 @@ html {
 .title {
   font-size: 4em;
   color: var(--light-text);
+  margin-top: -15px;
   margin-bottom: -15px;
+  width: 75%;
+}
+
+.themeToggle {
+  margin-top: 0px;
 }
 
 .subTitle {
@@ -98,7 +106,7 @@ html {
   margin-bottom: 20px;
   width: 300px;
   height: 230px;
-  box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 1);
+  box-shadow: 0 4px 8px 0 var(--shadow);
   color: var(--accent-color);
   transition: 0.3s;
   border-radius: 5px;
@@ -112,7 +120,7 @@ html {
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 1);
+  box-shadow: 0 4px 8px 0 var(--shadow-hover);
 }
 
 .cardContainer {
@@ -133,7 +141,7 @@ html {
 .skills {
   margin: 0 10px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 1);
+  box-shadow: 0 4px 8px 0 var(--shadow);
   list-style-position: inside;
   background-color: var(--light-background);
   list-style-type: square;
@@ -146,7 +154,7 @@ html {
 }
 
 .skills:hover {
-  box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 1);
+  box-shadow: 0 4px 8px 0 var(--shadow-hover);
 }
 
 .skills > li {
