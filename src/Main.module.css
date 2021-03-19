@@ -142,6 +142,7 @@ html {
   margin: 0 10px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 var(--shadow);
+  transition: 0.3s;
   list-style-position: inside;
   background-color: var(--light-background);
   list-style-type: square;
