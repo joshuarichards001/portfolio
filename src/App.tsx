@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Socials from "./pages/Socials";
 import styles from "./Main.module.css";
 import ReactGA from "react-ga";
-import DarkModeToggle from "react-dark-mode-toggle";
 import themes from "./Theme";
 import Xero from "./pages/Xero";
 import CRAutomation from "./pages/CRAutomation";
