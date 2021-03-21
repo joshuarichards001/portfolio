@@ -31,7 +31,9 @@ export default function Vuw(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h1>Victoria University of Wellington</h1>
+        <h1 className={styles.modalHeader}>
+          Victoria University of Wellington
+        </h1>
         <div className={styles.modalSubContent}>
           <p>
             I am currently completing my final year of Software Engineering at

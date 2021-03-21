@@ -32,7 +32,7 @@ export default function Xero(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h1>Xero</h1>
+        <h1 className={styles.modalHeader}>Xero</h1>
         <div className={styles.modalSubContent}>
           <p>
             Over the course of the 2020/21 summer I completed an internship at

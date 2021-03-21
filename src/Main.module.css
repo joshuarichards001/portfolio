@@ -182,6 +182,11 @@ html {
   background-color: var(--dark-background);
 }
 
+.modalHeader {
+  color: var(--accent-color);
+  margin-left: 5px;
+}
+
 .modalSubContent {
   display: flex;
   flex-direction: row;
@@ -189,7 +194,6 @@ html {
   align-content: stretch;
   flex-wrap: wrap;
   color: var(--dark-text);
-  padding: 5px;
 }
 
 .modalSubContent > p {

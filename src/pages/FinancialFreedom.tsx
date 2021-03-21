@@ -31,7 +31,7 @@ export default function FinancialFreedom(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h1>Financial Freedom</h1>
+        <h1 className={styles.modalHeader}>Financial Freedom</h1>
         <div className={styles.modalSubContent}>
           <p>
             Financial Freedom is a full stack budgeting application to help
@@ -42,11 +42,11 @@ export default function FinancialFreedom(): ReactElement {
             visualisation of transactions through pie charts, creating a budget
             based on how the user wants to spend their money, Hot swapping the
             pages columns so that the user can decide what they want to see,
-            logging in and registering users and finally signing in using your Google
-            account. In addition to this I have ported some of its basic
+            logging in and registering users and finally signing in using your
+            Google account. In addition to this I have ported some of its basic
             functionality onto a mobile app built in react native and Ionic
-            which can be found on my GitHub. Click on the image to see the
-            app in action!
+            which can be found on my GitHub. Click on the image to see the app
+            in action!
           </p>
           <a
             href="https://financial-freedom.netlify.app/"

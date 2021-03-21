@@ -32,7 +32,7 @@ export default function CRAutomation(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h2>CR Automation</h2>
+        <h1 className={styles.modalHeader}>CR Automation</h1>
         <div className={styles.modalSubContent}>
           <p>
             Over the course of the 2019/20 summer I completed an internship at
@@ -45,8 +45,8 @@ export default function CRAutomation(): ReactElement {
             providing the CR Automation's business intelligence specialist with
             the ability to monitor a number of systems simultaneously and then
             aggregate their data into one location. The program was built using
-            C#, .NET and SQL Server. Click on the image to read this
-            programs functional description.
+            C#, .NET and SQL Server. Click on the image to read this programs
+            functional description.
           </p>
           <a
             href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit#heading=h.gjdgxs"

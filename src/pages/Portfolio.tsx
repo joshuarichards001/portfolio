@@ -32,7 +32,7 @@ export default function Portfolio(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h1>Portfolio</h1>
+        <h1 className={styles.modalHeader}>Portfolio</h1>
         <div className={styles.modalSubContent}>
           <p>
             This portfolio is a new addition that I have created and continually

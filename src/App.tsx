@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Socials from "./pages/Socials";
 import styles from "./Main.module.css";
 import ReactGA from "react-ga";
