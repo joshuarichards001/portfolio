@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Socials from "./pages/Socials";
 import styles from "./Main.module.css";
 import ReactGA from "react-ga";
@@ -31,6 +31,8 @@ function App() {
             checked={isDarkMode}
             onChange={setIsDarkMode}
             size={35}
+            moonColor="#e4e4e4"
+            sunColor="#222222"
           />
         </div>
 

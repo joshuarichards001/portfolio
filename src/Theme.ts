@@ -11,10 +11,10 @@ const Dark = () => {
 const Light = () => {
   document.documentElement.style.setProperty("--light-background", "#f7f7f7");
   document.documentElement.style.setProperty("--dark-background", "#FFFFFF");
-  document.documentElement.style.setProperty("--light-text", "#3a3a3a");
-  document.documentElement.style.setProperty("--dark-text", "#222222");
-  document.documentElement.style.setProperty("--shadow", "#949494");
-  document.documentElement.style.setProperty("--shadow-hover", "#444444");
+  document.documentElement.style.setProperty("--light-text", "#222222");
+  document.documentElement.style.setProperty("--dark-text", "#3a3a3a");
+  document.documentElement.style.setProperty("--shadow", "#999999");
+  document.documentElement.style.setProperty("--shadow-hover", "#666666");
   document.documentElement.style.setProperty("--accent-color", "#c1114c");
 };
 
