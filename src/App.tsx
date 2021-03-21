@@ -9,6 +9,7 @@ import CRAutomation from "./pages/CRAutomation";
 import FinancialFreedom from "./pages/FinancialFreedom";
 import Portfolio from "./pages/Portfolio";
 import Vuw from "./pages/Vuw";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -27,11 +28,10 @@ function App() {
       <div className={styles.content}>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <header className={styles.title}>Josh Richards</header>
-          <DarkModeToggle
-            className={styles.themeToggle}
-            onChange={setIsDarkMode}
+          <DarkModeSwitch
             checked={isDarkMode}
-            size={60}
+            onChange={setIsDarkMode}
+            size={35}
           />
         </div>
 
