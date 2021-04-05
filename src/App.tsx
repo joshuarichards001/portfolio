@@ -9,6 +9,7 @@ import FinancialFreedom from "./pages/FinancialFreedom";
 import Portfolio from "./pages/Portfolio";
 import Vuw from "./pages/Vuw";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
+import TickerTracker from "./pages/TickerTracker";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -30,7 +31,7 @@ function App() {
           <DarkModeSwitch
             checked={isDarkMode}
             onChange={setIsDarkMode}
-            size={35}
+            size={30}
             moonColor="#e4e4e4"
             sunColor="#222222"
           />
@@ -63,6 +64,7 @@ function App() {
           <div className={styles.subExperience}>
             <FinancialFreedom />
             <Portfolio />
+            <TickerTracker />
           </div>
         </div>
 
@@ -83,10 +85,12 @@ function App() {
               <li>Java</li>
               <li>C++</li>
               <li>HTML</li>
+              <li>SCSS</li>
               <li>CSS</li>
               <li>JavaScript</li>
               <li>TypeScript</li>
               <li>SQL Server</li>
+              <li>Ruby</li>
             </ul>
             <ul className={styles.skills}>
               <li>ASP.NET</li>
@@ -99,6 +103,8 @@ function App() {
               <li>Team City</li>
               <li>Docker</li>
               <li>GA/GTM</li>
+              <li>Firebase</li>
+              <li>Authentication</li>
             </ul>
           </div>
         </div>
