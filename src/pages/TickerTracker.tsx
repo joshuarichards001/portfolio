@@ -20,7 +20,7 @@ export default function TickerTracker(): ReactElement {
         <img src={ttImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
           <b>Ticker Tracker</b>
-          <p>Full Stack Portfolio Tracking App</p>
+          <p>Stock/Crypto Tracking App</p>
         </div>
       </button>
       <Modal
@@ -36,13 +36,14 @@ export default function TickerTracker(): ReactElement {
           <p>
             Ticker Tracker is a full stack portfolio management application that
             help users aggregate all of their investments into one place. It is
-            built using React, Typescript and SCSS for the frontend (deployed
-            using Netlify), IEX Cloud for the financial data API and Firebase
-            for the backend. It has a number of functions including adding,
-            editing and deleting users assets, a fully functional auto suggest
-            search bar for thousands of different asset types, creating a unique
-            profile and asset through your Google account and many more. Click
-            on the image to see the app in action!
+            built using React, Redux, Typescript and SCSS for the frontend
+            (deployed using Netlify), IEX Cloud for the financial data API,
+            Algolia for the auto searching of Assets and Firebase for the
+            backend. It has a number of functions including adding, editing and
+            deleting users assets, a fully functional auto suggest search bar
+            for thousands of different stocks/cryptos/etfs, creating a profile
+            through your Google account and many more. Click on the image to see
+            the app in action!
           </p>
           <a
             href="https://tickertracker.netlify.app/"

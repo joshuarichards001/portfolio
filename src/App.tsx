@@ -62,9 +62,9 @@ function App() {
         <div className={styles.experience}>
           <h3 className={styles.categoryTitle}>Projects</h3>
           <div className={styles.subExperience}>
+            <TickerTracker />
             <FinancialFreedom />
             <Portfolio />
-            <TickerTracker />
           </div>
         </div>
 
@@ -104,7 +104,7 @@ function App() {
               <li>Docker</li>
               <li>GA/GTM</li>
               <li>Firebase</li>
-              <li>Authentication</li>
+              <li>Redux</li>
             </ul>
           </div>
         </div>
