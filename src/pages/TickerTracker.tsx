@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import Modal from "react-modal";
 import ttImage from "../images/portfolioTracker.png";
+import ttInnerModalImage from "../images/ttImage.png";
 import styles from "../Main.module.css";
 
 export default function TickerTracker(): ReactElement {
@@ -50,7 +51,7 @@ export default function TickerTracker(): ReactElement {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={ttImage} alt="" />
+            <img src={ttInnerModalImage} alt="" />
           </a>
         </div>
       </Modal>
