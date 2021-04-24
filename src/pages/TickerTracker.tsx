@@ -27,7 +27,7 @@ export default function TickerTracker(): ReactElement {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        contentLabel="FF"
+        contentLabel="TT"
         ariaHideApp={false}
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
@@ -36,21 +36,20 @@ export default function TickerTracker(): ReactElement {
         <div className={styles.modalSubContent}>
           <p>
             Ticker Tracker is a full stack portfolio management application that
-            help users aggregate all of their investments into one place. It is
-            built using React, Redux, Typescript and SCSS for the frontend
-            (deployed using Netlify), IEX Cloud for the financial data API,
-            Algolia for the auto searching of Assets and Firebase for the
-            backend. It has a number of functions including adding, editing and
-            deleting users assets, a fully functional auto suggest search bar
-            for thousands of different stocks/cryptos/etfs, creating a profile
-            through your Google account and many more. Click on the image to see
-            the app in action!
+            lets users aggregate all of their investments into one location. It
+            is built using React, Redux, Typescript and SCSS for the frontend,
+            IEX Cloud for the financial data, Fixer for the foreign currency
+            rates, Algolia for the asset auto searching capabilities and
+            Firebase to host the backend/database. It has a number of functions
+            including adding, editing and deleting users assets, a fully
+            functional auto suggest search bar for thousands of different
+            stocks, cryptocurrencies and etfs and also daily tracking of users
+            net worth to visualise how their portfolio is performing over the
+            long term. Users also use their Google account to sign into their
+            profile meaning there is no need to create and remember yet another
+            username and password. Click on the image to see the app in action!
           </p>
-          <a
-            href="https://tickertracker.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://tickertracker.co" target="_blank" rel="noreferrer">
             <img src={ttInnerModalImage} alt="" />
           </a>
         </div>
