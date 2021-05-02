@@ -35,17 +35,16 @@ export default function CRAutomation(): ReactElement {
         <h1 className={styles.modalHeader}>CR Automation</h1>
         <div className={styles.modalSubContent}>
           <p>
-            Over the course of the 2019/20 summer I completed an internship at
-            the automation engineering company CR Automation. During my time
-            there I worked on an independent project where I was tasked with
-            building a business intelligence agent. This piece of software would
-            receive data from a data source (e.g. PLC, Computer, Database, etc.)
-            and sends it to multiple SQL Server databases or files by using a
-            variety of communication protocols concurrently. It's use case was
-            providing the CR Automation's business intelligence specialist with
-            the ability to monitor a number of systems simultaneously and then
-            aggregate their data into one location. The program was built using
-            C#, .NET and SQL Server. Click on the image to read this programs
+            During the 2019/20 summer, I completed an internship at the
+            automation engineering company CR Automation. During my time there,
+            I worked on an independent project to build a business intelligence
+            agent. This piece of software would receive data from a data source
+            (e.g. PLC, Computer, Database, etc.) and send it to multiple SQL
+            Server databases or files by using various communication protocols
+            concurrently. It was built to support the Business Intelligence
+            Specialist in aggregating relevant data to one location to make
+            intelligent business decisions. The program was built using C#,
+            .NET, and SQL Server. Click on the image to read this programs
             functional description.
           </p>
           <a

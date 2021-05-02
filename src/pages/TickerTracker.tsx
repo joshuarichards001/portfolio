@@ -35,19 +35,17 @@ export default function TickerTracker(): ReactElement {
         <h1 className={styles.modalHeader}>Ticker Tracker</h1>
         <div className={styles.modalSubContent}>
           <p>
-            Ticker Tracker is a full stack portfolio management application that
+            Ticker Tracker is a full-stack portfolio management application that
             lets users aggregate all of their investments into one location. It
-            is built using React, Redux, Typescript and SCSS for the frontend,
+            is built using React, Redux, Typescript, and SCSS for the frontend,
             IEX Cloud for the financial data, Fixer for the foreign currency
-            rates, Algolia for the asset auto searching capabilities and
-            Firebase to host the backend/database. It has a number of functions
-            including adding, editing and deleting users assets, a fully
-            functional auto suggest search bar for thousands of different
-            stocks, cryptocurrencies and etfs and also daily tracking of users
-            net worth to visualise how their portfolio is performing over the
-            long term. Users also use their Google account to sign into their
-            profile meaning there is no need to create and remember yet another
-            username and password. Click on the image to see the app in action!
+            rates, Algolia for the asset auto searching capabilities, and
+            Firebase to host the backend/database. It has several functions,
+            including adding, editing and deleting users assets and an
+            auto-suggest search bar containing thousands of different stocks,
+            cryptocurrencies and ETFs. Additionally, it tracks users' net worth
+            daily to visualise how their portfolio performs over the long term.
+            Click on the image to see the app in action!
           </p>
           <a href="https://tickertracker.co" target="_blank" rel="noreferrer">
             <img src={ttInnerModalImage} alt="" />
