@@ -40,13 +40,21 @@ function App() {
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand. The majority
-          of my experience is developing with React, TypeScript, C#, ASP.NET and
-          SQL Server.
+          of my experience is developing with React, TypeScript, Firebase, C#,
+          ASP.NET and SQL Server.
         </p>
         <p className={styles.about}>
-          I am currently an intern at the cloud accounting software company
-          Xero. Over the course of my internship I have been working on the
-          modernisation of the Invoicing platform.
+          I am currently a final year Software Engineering student. Last summer
+          I completed an Internship at the cloud accounting software company
+          Xero. Over the course of the internship I worked on the modernisation
+          of the Invoicing platform.
+        </p>
+        <p className={styles.about}>
+          Outside of University I am building a investment portfolio tracking
+          platform called Ticker Tracker. It has gained more that 500 users
+          within the first two weeks of launch and has an engaged user base that
+          I am working with to create the best platform possible. Click the
+          Ticker Tracker card below to learn more about it.
         </p>
 
         <Socials />
