@@ -50,8 +50,8 @@ function App() {
           of the Invoicing platform.
         </p>
         <p className={styles.about}>
-          Outside of University I am building a investment portfolio tracking
-          platform called Ticker Tracker. It has gained more that 500 users
+          Outside of University I am building an investment portfolio tracking
+          platform called Ticker Tracker. It has gained more than 500 users
           within the first two weeks of launch and has an engaged user base that
           I am working with to create the best platform possible. Click the
           Ticker Tracker card below to learn more about it.
