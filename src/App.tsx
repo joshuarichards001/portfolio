@@ -54,7 +54,7 @@ function App() {
           platform called Ticker Tracker. It has gained more than 500 users
           within the first two weeks of launch and has an engaged user base that
           I am working with to create the best platform possible. Click the
-          Ticker Tracker card below to learn more about it.
+          Ticker Tracker card below to learn more about it!
         </p>
 
         <Socials />
