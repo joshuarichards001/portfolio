@@ -20,7 +20,7 @@ export default function Xero(): ReactElement {
       <button className={styles.card} onClick={openModal}>
         <img src={xeroImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
-          <b>Xero</b>
+          <b>Xero (CLICK ME)</b>
           <p>Software Developer Intern</p>
         </div>
       </button>

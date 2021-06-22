@@ -35,17 +35,13 @@ export default function TickerTracker(): ReactElement {
         <h1 className={styles.modalHeader}>Ticker Tracker</h1>
         <div className={styles.modalSubContent}>
           <p>
-            Ticker Tracker is a full-stack portfolio tracking application that
-            has over 500 users. It is a place where users can aggregate all of
-            their investments into one location. It is built using React, Redux,
-            Typescript, and SCSS for the frontend, Yahoo Finance for the
-            financial data, Fixer for the foreign currency rates, and Firebase
-            to host the backend/database. It has several functions, including
-            adding, editing and deleting users assets and an auto-suggest search
-            bar containing thousands of different stocks, cryptocurrencies and
-            ETFs. Additionally, it tracks users' net worth daily to visualise
-            how their portfolio performs over the long term. Click on the image
-            to see the app in action!
+            Ticker Tracker is a full-stack portfolio tracking application that has over 500 users. It is a place where
+            users can aggregate all of their investments into one location. It is built using React, Redux, Typescript,
+            and SCSS for the frontend, Yahoo Finance for the financial data, Fixer for the foreign currency rates, and
+            Firebase to host the backend/database. It has several functions, including adding, editing and deleting
+            users assets and an auto-suggest search bar containing thousands of different stocks, cryptocurrencies and
+            ETFs. Additionally, it tracks users' net worth daily to visualise how their portfolio performs over the long
+            term. Click on the image to see the app in action!
           </p>
           <a href="https://tickertracker.co" target="_blank" rel="noreferrer">
             <img src={ttInnerModalImage} alt="" />

@@ -39,22 +39,18 @@ function App() {
 
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand. The majority
-          of my experience is developing with React, TypeScript, Firebase, C#,
-          ASP.NET and SQL Server.
+          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing web apps
+          with React, TypeScript, Firebase, C#, ASP.NET and PostgreSQL.
         </p>
         <p className={styles.about}>
-          I am currently a final year Software Engineering student. Last summer
-          I completed an Internship at the cloud accounting software company
-          Xero. Over the course of the internship I worked on the modernisation
-          of the Invoicing platform.
+          I am currently building an investment portfolio tracking platform called Ticker Tracker. It has gained more
+          than 500 users and has an engaged user base that I am working with to create the best platform possible. Click
+          the Ticker Tracker card below to learn more about it.
         </p>
         <p className={styles.about}>
-          Outside of University I am building an investment portfolio tracking
-          platform called Ticker Tracker. It has gained more than 500 users
-          within the first two weeks of launch and has an engaged user base that
-          I am working with to create the best platform possible. Click the
-          Ticker Tracker card below to learn more about it.
+          Within the past few years I have completed my degree in Computer Science and completed a number of
+          internships. Last summer I completed an Internship at the cloud accounting software company Xero. Over the
+          course of the internship I worked on the modernisation of the Invoicing platform.
         </p>
 
         <Socials />
@@ -103,12 +99,12 @@ function App() {
             <ul className={styles.skills}>
               <li>ASP.NET</li>
               <li>Django</li>
+              <li>Node.js</li>
               <li>Git</li>
               <li>Agile</li>
               <li>CI/CD</li>
               <li>AI/ML</li>
               <li>React Native</li>
-              <li>Team City</li>
               <li>Docker</li>
               <li>GA/GTM</li>
               <li>Firebase</li>

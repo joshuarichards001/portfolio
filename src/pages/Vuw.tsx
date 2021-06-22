@@ -31,19 +31,14 @@ export default function Vuw(): ReactElement {
         className={styles.modalContent}
         overlayClassName={styles.modalOverlay}
       >
-        <h1 className={styles.modalHeader}>
-          Victoria University of Wellington
-        </h1>
+        <h1 className={styles.modalHeader}>Victoria University of Wellington</h1>
         <div className={styles.modalSubContent}>
           <p>
-            I am currently completing my final year of Software Engineering at
-            Victoria University of Wellington. Over the course of my Software
-            Engineering degree I have filled a in a number of roles. Firstly I
-            am currently a tutor in the class SWEN301 of which goes over web
-            fundamentals. Additionally this semester I have been the class
-            representative for SWEN431 - Advanced programming languages. Click
-            on the image to learn more about how VUW's Software Engineering
-            Program is Structured.
+            I have recently graduated with a Computer Science degree from Victoria University of Wellington. Over the
+            course of my Software Engineering degree I have filled a in a number of roles. Firstly I am currently a
+            tutor in the class SWEN301 of which goes over web fundamentals. Additionally this semester I have been the
+            class representative for SWEN431 - Advanced programming languages. Click on the image to learn more about
+            how VUW's Software Engineering Program is Structured.
           </p>
           <a
             href="https://www.wgtn.ac.nz/explore/study-areas/software-and-computer-science/overview"
