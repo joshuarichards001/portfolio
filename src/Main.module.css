@@ -60,7 +60,7 @@ html {
 
 .about {
   color: var(--dark-text);
-  max-width: 610px;
+  max-width: 940px;
 }
 
 .socials {
@@ -76,12 +76,12 @@ html {
 .experience {
   display: flex;
   flex-direction: column;
-  max-width: 620px;
+  max-width: 940px;
 }
 
 .subExperience {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   flex-wrap: wrap;
   margin: 0 -10px;
 }

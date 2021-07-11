@@ -40,17 +40,19 @@ function App() {
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing web apps
-          with React, TypeScript, Firebase, C#, ASP.NET and PostgreSQL.
+          with React, TypeScript, Firebase, C#, and PostgreSQL.
         </p>
         <p className={styles.about}>
-          I am currently building an investment portfolio tracking platform called Ticker Tracker. It has gained more
-          than 500 users and has an engaged user base that I am working with to create the best platform possible. Click
-          the Ticker Tracker card below to learn more about it.
+          I am currently building an investment portfolio tracking platform called Hedges. It's predecessor 'Ticker
+          Tracker' gained more than 500 users in a week. I am now building a more polished cross platform
+          application that is still in the early stages of development. Click the Ticker Tracker card below to learn a
+          bit more about it.
         </p>
         <p className={styles.about}>
-          Within the past few years I have completed my degree in Computer Science and completed a number of
-          internships. Last summer I completed an Internship at the cloud accounting software company Xero. Over the
-          course of the internship I worked on the modernisation of the Invoicing platform.
+          Within the past few years I have completed my degree in Computer Science and participated in a number of
+          internships. Last summer I completed an Internship at the cloud accounting software company Xero, the
+          summer prior I worked with the automation engineering firm CR Automation. Click their respective cards to find
+          out more.
         </p>
 
         <Socials />

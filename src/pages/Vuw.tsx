@@ -19,7 +19,7 @@ export default function Vuw(): ReactElement {
       <button className={styles.card} onClick={openModal}>
         <img src={vuwImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
-          <b>Victoria University of Wellington</b>
+          <b>Computer Science at VUW</b>
           <p>Tutor / Class Rep / Student</p>
         </div>
       </button>
@@ -35,8 +35,8 @@ export default function Vuw(): ReactElement {
         <div className={styles.modalSubContent}>
           <p>
             I have recently graduated with a Computer Science degree from Victoria University of Wellington. Over the
-            course of my Software Engineering degree I have filled a in a number of roles. Firstly I am currently a
-            tutor in the class SWEN301 of which goes over web fundamentals. Additionally this semester I have been the
+            course of my degree I have filled a in a number of roles in addition to being a student. Firstly I was a
+            tutor in the class SWEN301 - Structured Methods which goes over web fundamentals. Additionally I was the
             class representative for SWEN431 - Advanced programming languages. Click on the image to learn more about
             how VUW's Software Engineering Program is Structured.
           </p>
