@@ -23,4 +23,4 @@ const themes = {
   Light,
 };
 
-export default themes
+export default themes;

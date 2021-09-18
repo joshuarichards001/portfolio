@@ -48,7 +48,12 @@ export default function TickerTracker(): ReactElement {
               https://tickertracker.co
             </a>
             <p></p>
-            <a href="https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/" target="_blank" rel="noreferrer" style={{ color: "#ec8bbb" }}>
+            <a
+              href="https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#ec8bbb" }}
+            >
               The Reddit Post
             </a>
           </div>
