@@ -41,10 +41,10 @@ function App() {
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing full
-          stack web apps with React, TypeScript, Node.js and PostgreSQL.
+          stack web applications with React, TypeScript, Node.js and PostgreSQL.
         </p>
         <p className={styles.about}>
-          I am currently building an personal finance platform called Hedges. After the success of it's predecessor
+          I am currently building a personal finance platform called Hedges. After the success of it's predecessor
           'Ticker Tracker' I am now building a more polished cross platform application. Click the Hedges card below to
           learn a bit more about it.
         </p>
