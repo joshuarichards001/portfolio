@@ -20,8 +20,8 @@ export default function CRAutomation(): ReactElement {
       <button className={styles.card} onClick={openModal}>
         <img src={crAutoImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
-          <b>CR Automation</b>
-          <p>Software Developer Intern</p>
+          <b>CR Automation (2018 - 2020)</b>
+          <p>Software Engineer Intern</p>
         </div>
       </button>
       <Modal
@@ -34,19 +34,17 @@ export default function CRAutomation(): ReactElement {
       >
         <h1 className={styles.modalHeader}>CR Automation</h1>
         <div className={styles.modalSubContent}>
-          <p>
-            During the 2019/20 summer, I completed an internship at the
-            automation engineering company CR Automation. During my time there,
-            I worked on an independent project to build a business intelligence
-            agent. This piece of software would receive data from a data source
-            (e.g. PLC, Computer, Database, etc.) and send it to multiple SQL
-            Server databases or files by using various communication protocols
-            concurrently. It was built to support the Business Intelligence
-            Specialist in aggregating relevant data to one location to make
-            intelligent business decisions. The program was built using C#,
-            .NET, and SQL Server. Click on the image to read this programs
-            functional description.
-          </p>
+          <div>
+            <p>
+              During the 2019/20 summer, I completed an internship at the automation engineering company CR Automation.
+              During my time there, I worked on an independent project to build a business intelligence agent. This
+              piece of software would receive data from a data source (e.g. PLC, Computer, Database, etc.) and send it
+              to multiple SQL Server databases or files by using various communication protocols concurrently. It was
+              built to support the Business Intelligence Specialist in aggregating relevant data to one location to make
+              intelligent business decisions. The program was built using C#, .NET, and SQL Server. Click on the image
+              to read this programs functional description.
+            </p>
+          </div>
           <a
             href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit#heading=h.gjdgxs"
             target="_blank"

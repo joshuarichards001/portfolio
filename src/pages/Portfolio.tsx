@@ -34,22 +34,17 @@ export default function Portfolio(): ReactElement {
       >
         <h1 className={styles.modalHeader}>Portfolio</h1>
         <div className={styles.modalSubContent}>
-          <p>
-            This portfolio is a new addition that I have created and continually
-            added to over the course of this year. The main goal of building
-            this portfolio from scratch was to gain better knowledge of design,
-            user experience, responsiveness, and modularity. In addition to this
-            I used it to gain exposure to Google Analytics and Search Engine
-            Optimisation. I did this by going through the process of connecting
-            the website to google analytics to monitor its traffic and also
-            indexing my site through the google search console. Click the image
-            to see the GitHub repo of the website.
-          </p>
-          <a
-            href="https://github.com/joshuarichards001/portfolio"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <div>
+            <p>
+              This portfolio is a new addition that I have created and continually added to over the course of this
+              year. The main goal of building this portfolio from scratch was to gain better knowledge of design, user
+              experience, responsiveness, and modularity. In addition to this I used it to gain exposure to Google
+              Analytics and Search Engine Optimisation. I did this by going through the process of connecting the
+              website to google analytics to monitor its traffic and also indexing my site through the google search
+              console. Click the image to see the GitHub repo of the website.
+            </p>
+          </div>
+          <a href="https://github.com/joshuarichards001/portfolio" target="_blank" rel="noreferrer">
             <img src={portfolioAnalyticsImage} alt="" />
           </a>
         </div>

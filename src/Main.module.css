@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 
 :root {
   --light-background: #3a3a3a;
@@ -11,7 +11,10 @@
 }
 
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: Rubik;
+  /* font-family: cooper-black-std, serif; */
+  font-style: normal;
+  font-weight: 400;
   padding: 0;
 }
 
@@ -32,7 +35,7 @@ html {
   display: flex;
   justify-content: center;
   color: var(--light-text);
-  margin: 80px auto;
+  margin: 10% auto;
   animation: fadein 2s;
   background-color: var(--dark-background);
 }
@@ -44,6 +47,7 @@ html {
 
 .title {
   font-size: 4em;
+  font-weight: 900;
   color: var(--light-text);
   margin-top: -15px;
   margin-bottom: -15px;
@@ -56,10 +60,12 @@ html {
 
 .subTitle {
   color: var(--accent-color);
+  font-weight: 700;
 }
 
 .about {
   color: var(--dark-text);
+  line-height: 1.6rem;
   max-width: 940px;
 }
 
@@ -87,6 +93,7 @@ html {
 }
 
 .categoryTitle {
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -106,7 +113,7 @@ html {
   margin-bottom: 20px;
   width: 300px;
   height: 230px;
-  box-shadow: 0 4px 8px 0 var(--shadow);
+  box-shadow: 0px 5px 15px var(--shadow);
   color: var(--accent-color);
   transition: 0.3s;
   border-radius: 5px;
@@ -120,7 +127,7 @@ html {
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px 0 var(--shadow-hover);
+  box-shadow: 0px 10px 15px var(--shadow-hover);
 }
 
 .cardContainer {
@@ -196,16 +203,20 @@ html {
   color: var(--dark-text);
 }
 
-.modalSubContent > p {
+.modalSubContent > div {
   width: 48%;
   min-width: 250px;
   flex-grow: 1;
   margin: 5px;
 }
 
+.modalSubContent > div > p {
+  line-height: 1.5rem;
+}
+
 .modalSubContent > a {
   width: 48%;
-  min-width: 350px;
+  min-width: 300px;
   flex-grow: 1;
   margin: 5px;
 }

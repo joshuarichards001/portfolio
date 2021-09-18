@@ -10,6 +10,7 @@ import Portfolio from "./pages/Portfolio";
 import Vuw from "./pages/Vuw";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import TickerTracker from "./pages/TickerTracker";
+import Hedges from "./pages/Hedges";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -39,20 +40,19 @@ function App() {
 
         <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing web apps
-          with React, TypeScript, Firebase, C#, and PostgreSQL.
+          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing full
+          stack web apps with React, TypeScript, Node.js and PostgreSQL.
         </p>
         <p className={styles.about}>
-          I am currently building an investment portfolio tracking platform called Hedges. It's predecessor 'Ticker
-          Tracker' gained more than 500 users in a week. I am now building a more polished cross platform
-          application that is still in the early stages of development. Click the Ticker Tracker card below to learn a
-          bit more about it.
+          I am currently building an personal finance platform called Hedges. After the success of it's predecessor
+          'Ticker Tracker' I am now building a more polished cross platform application. Click the Hedges card below to
+          learn a bit more about it.
         </p>
         <p className={styles.about}>
-          Within the past few years I have completed my degree in Computer Science and participated in a number of
-          internships. Last summer I completed an Internship at the cloud accounting software company Xero, the
-          summer prior I worked with the automation engineering firm CR Automation. Click their respective cards to find
-          out more.
+          Within the past few years I have completed a degree in Computer Science and participated in a number of
+          internships. Last summer I completed an internship at the cloud accounting software company Xero, the summer
+          prior I worked with the automation engineering firm CR Automation. Click their respective cards to find out
+          more about my time there.
         </p>
 
         <Socials />
@@ -60,6 +60,7 @@ function App() {
         <div className={styles.experience}>
           <h3 className={styles.categoryTitle}>Work</h3>
           <div className={styles.subExperience}>
+            <Hedges />
             <Xero />
             <CRAutomation />
           </div>
@@ -86,31 +87,35 @@ function App() {
           <div className={styles.subExperience}>
             <ul className={styles.skills}>
               <li>C#</li>
+              <li>JavaScript</li>
               <li>Python</li>
-              <li>React</li>
               <li>Java</li>
               <li>C++</li>
               <li>HTML</li>
-              <li>SCSS</li>
               <li>CSS</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>SQL Server</li>
               <li>Ruby</li>
+              <li>SQL Server</li>
+              <li>PostgreSQL</li>
             </ul>
             <ul className={styles.skills}>
+              <li>Node.js</li>
               <li>ASP.NET</li>
               <li>Django</li>
-              <li>Node.js</li>
+              <li>SCSS</li>
+              <li>React</li>
+              <li>Ionic</li>
+              <li>React Native</li>
+              <li>TypeScript</li>
+            </ul>
+            <ul className={styles.skills}>
+              <li>Firebase</li>
+              <li>Heroku</li>
               <li>Git</li>
               <li>Agile</li>
-              <li>CI/CD</li>
-              <li>AI/ML</li>
-              <li>React Native</li>
-              <li>Docker</li>
-              <li>GA/GTM</li>
-              <li>Firebase</li>
               <li>Redux</li>
+              <li>GA/GTM</li>
+              <li>AI/ML</li>
+              <li>CI/CD</li>
             </ul>
           </div>
         </div>

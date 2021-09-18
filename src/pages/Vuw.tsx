@@ -33,13 +33,15 @@ export default function Vuw(): ReactElement {
       >
         <h1 className={styles.modalHeader}>Victoria University of Wellington</h1>
         <div className={styles.modalSubContent}>
-          <p>
-            I have recently graduated with a Computer Science degree from Victoria University of Wellington. Over the
-            course of my degree I have filled a in a number of roles in addition to being a student. Firstly I was a
-            tutor in the class SWEN301 - Structured Methods which goes over web fundamentals. Additionally I was the
-            class representative for SWEN431 - Advanced programming languages. Click on the image to learn more about
-            how VUW's Software Engineering Program is Structured.
-          </p>
+          <div>
+            <p>
+              I have recently graduated with a Computer Science degree from Victoria University of Wellington. Over the
+              course of my degree I have filled a in a number of roles in addition to being a student. Firstly I was a
+              tutor in the class SWEN301 - Structured Methods which goes over web fundamentals. Additionally I was the
+              class representative for SWEN431 - Advanced programming languages. Click on the image to learn more about
+              how VUW's Software Engineering Program is Structured.
+            </p>
+          </div>
           <a
             href="https://www.wgtn.ac.nz/explore/study-areas/software-and-computer-science/overview"
             target="_blank"
