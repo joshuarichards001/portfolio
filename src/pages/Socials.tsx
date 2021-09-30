@@ -7,7 +7,7 @@ export default function Socials(): ReactElement {
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://docs.google.com/document/d/1z3FlAJrECfUwa0-MHCIE9uDEvj7T4aGLa9VDYReASHU/edit?usp=sharing"
+        href="https://drive.google.com/file/d/1sB9_wmEwxkgt9nlLagdxBbpbjziwfwo3/view?usp=sharing"
         title="Resume/CV"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
