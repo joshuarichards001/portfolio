@@ -38,7 +38,7 @@ function App() {
           />
         </div>
 
-        <h2 className={styles.subTitle}> Full Stack Web Developer</h2>
+        <h2 className={styles.subTitle}>Full Stack Web Developer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing full
           stack web applications with React, TypeScript, Node.js and PostgreSQL.
