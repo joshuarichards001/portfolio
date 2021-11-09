@@ -54,7 +54,16 @@ export default function TickerTracker(): ReactElement {
               rel="noreferrer"
               style={{ color: "#ec8bbb" }}
             >
-              The Reddit Post
+              PersonalFinanceNZ Reddit Post
+            </a>
+            <p></p>
+            <a
+              href="https://www.reddit.com/r/fiaustralia/comments/njoox7/tracking_your_whole_portfolio_made_easier/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#ec8bbb" }}
+            >
+              fiaustralia Reddit Post
             </a>
           </div>
           <a href="https://tickertracker.co" target="_blank" rel="noreferrer">
