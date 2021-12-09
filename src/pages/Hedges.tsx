@@ -43,7 +43,7 @@ export default function Hedges(): ReactElement {
               for a more full featured personal finance application.
             </p>
             <p>
-              The application is built using Ionic 5, React, Typescript, NodeJS, Express and PostgreSQL. I have built
+              The application is built using React Native, Typescript, NodeJS, Express and PostgreSQL. I have built
               both the client and server side code in a legible and scalable fashion in order to pass it on to any
               potential future team members. The frontend code is hosted using Netlify and both the server and database
               is currently hosted using Heroku.
