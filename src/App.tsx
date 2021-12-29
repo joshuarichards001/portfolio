@@ -40,8 +40,8 @@ function App() {
 
         <h2 className={styles.subTitle}>Full Stack Web Developer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is developing full
-          stack web applications with React, TypeScript, Node.js and PostgreSQL.
+          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is in developing full
+          stack applications using React, React Native, TypeScript, Node.js, Express and PostgreSQL.
         </p>
         <p className={styles.about}>
           I am currently building a personal finance platform called Hedges. After the success of it's predecessor
@@ -103,8 +103,8 @@ function App() {
               <li>Django</li>
               <li>SCSS</li>
               <li>React</li>
-              <li>Ionic</li>
               <li>React Native</li>
+              <li>Ionic</li>
               <li>TypeScript</li>
             </ul>
             <ul className={styles.skills}>
