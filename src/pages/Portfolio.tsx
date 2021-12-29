@@ -21,7 +21,7 @@ export default function Portfolio(): ReactElement {
         <img src={portfolioImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
           <b>Portfolio</b>
-          <p>Design, Responsiveness, GA and SEO</p>
+          <p>Responsiveness, GA and SEO</p>
         </div>
       </button>
       <Modal
