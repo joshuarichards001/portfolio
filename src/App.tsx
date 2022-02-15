@@ -40,7 +40,7 @@ function App() {
 
         <h2 className={styles.subTitle}>Full Stack Web Developer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand. The majority of my experience is in developing full
+          I'm a Software Engineer at Xero based in Wellington, New Zealand. The majority of my experience is in developing full
           stack applications using React, React Native, TypeScript, Node.js, Express and PostgreSQL.
         </p>
         <p className={styles.about}>
