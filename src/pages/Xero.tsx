@@ -21,7 +21,7 @@ export default function Xero(): ReactElement {
         <img src={xeroImage} alt="Avatar" style={{ width: "100%" }} />
         <div className={styles.cardContainer}>
           <b>Xero (2020 - Present)</b>
-          <p>Software Engineer Intern</p>
+          <p>Graduate/Intern Engineer</p>
         </div>
       </button>
       <Modal
