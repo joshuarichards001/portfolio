@@ -36,7 +36,7 @@ export default function TickerTracker(): ReactElement {
         <div className={styles.modalSubContent}>
           <div>
             <p>
-              Ticker Tracker is a full-stack portfolio tracking application that has over 500 users. It is a place where
+              Ticker Tracker is a full-stack portfolio tracking application that has over 650 users. It is a place where
               users can aggregate all of their investments into one location. It is built using React, Redux,
               Typescript, and SCSS for the frontend, Yahoo Finance for the financial data, Fixer for the foreign
               currency rates, and Firebase to host the backend/database. It has several functions, including adding,
