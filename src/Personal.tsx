@@ -13,10 +13,7 @@ import igorImage from "./images/personal/igor.webp";
 import yeezusImage from "./images/personal/yeezus.png";
 import titanicRisingImage from "./images/personal/titanicRising.webp";
 import ninetyNineImage from "./images/personal/99.jpeg";
-import circlesImage from "./images/personal/circles.webp";
 import apricotPrincessImage from "./images/personal/apricotPrincess.jpeg";
-import kidAImage from "./images/personal/kidA.jpeg";
-import dondaImage from "./images/personal/donda.jpeg";
 
 export default function Personal() {
   return (
@@ -170,27 +167,6 @@ export default function Personal() {
               <div className={styles.cardContainer}>
                 <b>99.9%</b>
                 <p>Kaytranada</p>
-              </div>
-            </button>
-            <button className={styles.card}>
-              <img src={circlesImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>Circles</b>
-                <p>Mac Miller</p>
-              </div>
-            </button>
-            <button className={styles.card}>
-              <img src={kidAImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>Kid A</b>
-                <p>Radio Head</p>
-              </div>
-            </button>
-            <button className={styles.card}>
-              <img src={dondaImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>Donda</b>
-                <p>Kanye West</p>
               </div>
             </button>
           </div>
