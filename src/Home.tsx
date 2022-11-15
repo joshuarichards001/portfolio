@@ -64,8 +64,8 @@ function Home() {
         <div className={styles.experience}>
           <h3 className={styles.categoryTitle}>Work</h3>
           <div className={styles.subExperience}>
-            <Hedges />
             <Xero />
+            <Hedges />
             <CRAutomation />
           </div>
         </div>
