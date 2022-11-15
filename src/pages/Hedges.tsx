@@ -20,7 +20,7 @@ export default function Hedges(): ReactElement {
       <button className={styles.card} onClick={openModal}>
         <img src={hedgesLogoImage} alt="Avatar" style={{ width: "100%", height: "73%" }} />
         <div className={styles.cardContainer}>
-          <b>Hedges (2021 - Present)</b>
+          <b>Hedges (2021 - 2022)</b>
           <p>Co-founder and Sole Developer</p>
         </div>
       </button>
@@ -37,7 +37,7 @@ export default function Hedges(): ReactElement {
           <div>
             <p>
               Hedges is a portfolio management application built out of the popularity of my personal project Ticker
-              Tracker. After amassing over 500 users within a week with an overwhelming amount of positive feedback
+              Tracker. After amassing over 650 users within a week with an overwhelming amount of positive feedback
               regarding the concept I decided to take it more seriously. After teaming up with a great co-founder we got
               starting on designing and building a cross platform portfolio tracking app. This will be the foundation
               for a more full featured personal finance application.
