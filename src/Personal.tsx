@@ -10,7 +10,7 @@ import marriageStoryImage from "./images/personal/marriageStory.jpg";
 import herImage from "./images/personal/her.jpeg";
 import fiveHundredDaysImage from "./images/personal/500days.jpeg";
 import igorImage from "./images/personal/igor.webp";
-import yeezusImage from "./images/personal/yeezus.png";
+import inRainbowsImage from "./images/personal/inRainbows.webp";
 import titanicRisingImage from "./images/personal/titanicRising.webp";
 import ninetyNineImage from "./images/personal/99.jpeg";
 import apricotPrincessImage from "./images/personal/apricotPrincess.jpeg";
@@ -47,8 +47,8 @@ export default function Personal() {
         </p>
         <p className={styles.about}>
           Another huge part of my life has been the media that has affected me. I thought it would be cool to have some
-          of my personal favorites listed here so you can have a peak behind the curtain. If you want to head back
-          to the main page{" "}
+          of my personal favorites listed here so you can have a peak behind the curtain. If you want to head back to
+          the main page{" "}
           <a href="/" style={{ color: "#ec8bbb" }}>
             Click Here
           </a>
@@ -142,13 +142,6 @@ export default function Personal() {
               </div>
             </button>
             <button className={styles.card}>
-              <img src={yeezusImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>Yeezus</b>
-                <p>Kanye West</p>
-              </div>
-            </button>
-            <button className={styles.card}>
               <img src={titanicRisingImage} alt="Avatar" className={styles.image} />
               <div className={styles.cardContainer}>
                 <b>Titanic Rising</b>
@@ -167,6 +160,13 @@ export default function Personal() {
               <div className={styles.cardContainer}>
                 <b>99.9%</b>
                 <p>Kaytranada</p>
+              </div>
+            </button>
+            <button className={styles.card}>
+              <img src={inRainbowsImage} alt="Avatar" className={styles.image} />
+              <div className={styles.cardContainer}>
+                <b>In Rainbows</b>
+                <p>Radiohead</p>
               </div>
             </button>
           </div>
