@@ -9,7 +9,7 @@ export default function Socials(): ReactElement {
         data-tip="CV / Resume"
         target="_blank"
         rel="noreferrer"
-        href="https://drive.google.com/file/d/1sB9_wmEwxkgt9nlLagdxBbpbjziwfwo3/view?usp=sharing"
+        href="https://www.icloud.com/iclouddrive/013TrlELHxmujB9w25Il2ABlQ#JR_CV"
         title="Resume / CV"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
