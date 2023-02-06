@@ -6,7 +6,7 @@ import themes from "./Theme";
 import Xero from "./pages/Xero";
 import CRAutomation from "./pages/CRAutomation";
 import FinancialFreedom from "./pages/FinancialFreedom";
-import Portfolio from "./pages/Portfolio";
+import AlbumListenList from "./pages/AlbumListenList";
 import Vuw from "./pages/Vuw";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import TickerTracker from "./pages/TickerTracker";
@@ -40,19 +40,9 @@ function Home() {
 
         <h2 className={styles.subTitle}>Xero Graduate Software Engineer</h2>
         <p className={styles.about}>
-          I'm a Software Engineer based in Wellington, New Zealand currently working at Xero. The majority of my experience is in developing full
-          stack applications using React, TypeScript, Node.js, Express and PostgreSQL.
-        </p>
-        <p className={styles.about}>
-          I am currently building a personal finance platform called 'Hedges'. After it's predecessor 'Ticker Tracker'
-          gained over 650 users I decided to build it into a more polished cross platform application. Click the Hedges card
-          below to learn a bit more about it.
-        </p>
-        <p className={styles.about}>
-          Within the past few years I have completed a degree in Computer Science and participated in a number of
-          internships. Last summer I completed an internship at the cloud accounting software company Xero, the summer
-          prior I worked with the automation engineering firm CR Automation. Click their respective cards to find out
-          more about my time there. If you want to learn a bit more about me{" "}
+          I'm a Software Engineer based in Wellington, New Zealand currently working at Xero. The majority of my
+          experience is in developing full stack applications using React, TypeScript, Node.js, Express and PostgreSQL.
+          If you want to learn a bit more about me{" "}
           <a href="/personal" style={{ color: "#ec8bbb" }}>
             Click Here
           </a>
@@ -74,8 +64,8 @@ function Home() {
           <h3 className={styles.categoryTitle}>Projects</h3>
           <div className={styles.subExperience}>
             <TickerTracker />
+            <AlbumListenList />
             <FinancialFreedom />
-            <Portfolio />
           </div>
         </div>
 
@@ -91,7 +81,7 @@ function Home() {
           <div className={styles.subExperience}>
             <ul className={styles.skills}>
               <li>C#</li>
-              <li>TypeScript</li>
+              <li>JavaScript</li>
               <li>Python</li>
               <li>Java</li>
               <li>HTML</li>
@@ -101,6 +91,7 @@ function Home() {
             </ul>
             <ul className={styles.skills}>
               <li>Node.js</li>
+              <li>TypeScript</li>
               <li>ASP.NET</li>
               <li>Django</li>
               <li>SCSS</li>

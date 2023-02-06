@@ -26,29 +26,27 @@ export default function Personal() {
         <h2 className={styles.subTitle}>Human Being</h2>
         <p className={styles.about}>
           I was born and raised in sunny Hawkes Bay and attended Lindisfarne College for my high school years. After
-          developing an interest in problem solving I thought engineering would be the best bet for tertiary education.
-          After falling in love with Windy Wellington I decided to set up camp here and pursue my degree in engineering.
+          falling in love with Windy Wellington, I decided to set up camp here and pursue my degree in engineering.
         </p>
         <p className={styles.about}>
-          Initially I enrolled myself in the Electronic and Computer Systems major as I thought doing nothing but
-          sitting behind a computer all day would get old. I later found out that complex physics is not for me whereas
-          sitting behind a computer all day ain't that bad so I switched over to Software Engineering and slowly built
-          my love for programming.
+          Initially, I enrolled in the Electronic and Computer Systems major as I thought doing nothing but sitting
+          behind a computer all day would get old. I later discovered that complex physics is not for me, whereas
+          sitting behind a computer all day ain't that bad, so I switched to Software Engineering and slowly built my
+          love for programming.
         </p>
         <p className={styles.about}>
-          After researching more about the tech industry I found that drive I had been missing with my old major. I
-          started building personal projects related to a passion of mine (personal finance) and then the ball really
-          started rolling.
+          After researching more about the tech industry, I found that drive I had been missing with my old major. I
+          started building personal projects related to my passions, and then the ball really started rolling.
         </p>
         <p className={styles.about}>
-          Having the ability to turn an idea into a working application for anyone to use is so rewarding! It's opened
-          so many doors and expanded how I think about problems. Seeing how I've developed over the past 3 years makes
-          me incredibly excited to see whats in store for the next 10!
+          The ability to turn an idea into a working application for anyone to use is so rewarding! It's opened so many
+          doors and expanded how I think about problems. Seeing how I've developed over the past five years makes me
+          incredibly excited to see what's in store for the next 10!
         </p>
         <p className={styles.about}>
           Another huge part of my life has been the media that has affected me. I thought it would be cool to have some
-          of my personal favorites listed here so you can have a peak behind the curtain. If you want to head back to
-          the main page{" "}
+          of my favourites listed here so you can have a peak behind the curtain. If you want to head back to the main
+          page,{" "}
           <a href="/" style={{ color: "#ec8bbb" }}>
             Click Here
           </a>
@@ -128,13 +126,6 @@ export default function Personal() {
           <h3 className={styles.categoryTitle}>Favorite Albums</h3>
           <div className={styles.subExperience}>
             <button className={styles.card}>
-              <img src={blondeImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>Blonde</b>
-                <p>Frank Ocean</p>
-              </div>
-            </button>
-            <button className={styles.card}>
               <img src={igorImage} alt="Avatar" className={styles.image} />
               <div className={styles.cardContainer}>
                 <b>Igor</b>
@@ -156,17 +147,24 @@ export default function Personal() {
               </div>
             </button>
             <button className={styles.card}>
-              <img src={ninetyNineImage} alt="Avatar" className={styles.image} />
-              <div className={styles.cardContainer}>
-                <b>99.9%</b>
-                <p>Kaytranada</p>
-              </div>
-            </button>
-            <button className={styles.card}>
               <img src={inRainbowsImage} alt="Avatar" className={styles.image} />
               <div className={styles.cardContainer}>
                 <b>In Rainbows</b>
                 <p>Radiohead</p>
+              </div>
+            </button>
+            <button className={styles.card}>
+              <img src={blondeImage} alt="Avatar" className={styles.image} />
+              <div className={styles.cardContainer}>
+                <b>Blonde</b>
+                <p>Frank Ocean</p>
+              </div>
+            </button>
+            <button className={styles.card}>
+              <img src={ninetyNineImage} alt="Avatar" className={styles.image} />
+              <div className={styles.cardContainer}>
+                <b>99.9%</b>
+                <p>Kaytranada</p>
               </div>
             </button>
           </div>
