@@ -36,7 +36,7 @@ export default function AlbumListenList(): ReactElement {
         <div className={styles.modalSubContent}>
           <div>
             <p>
-              Album Listen List is a full-stack application that has over 100 users. It is a place where users can
+              Album Listen List is a full-stack application that has over 150 users. It is a place where users can
               aggregate all of the albums they plan to listen to in the future. It is built using React, Typescript,
               Tailwind for the frontend, and Firebase to host the backend/database. Click on the image to see the app in
               action!
