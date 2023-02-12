@@ -38,7 +38,7 @@ function Home() {
           />
         </div>
 
-        <h2 className={styles.subTitle}>Xero Graduate Software Engineer</h2>
+        <h2 className={styles.subTitle}>Xero Software Engineer</h2>
         <p className={styles.about}>
           I'm a Software Engineer based in Wellington, New Zealand currently working at Xero. The majority of my
           experience is in developing full stack applications using React, TypeScript, Node.js, Express and PostgreSQL.
