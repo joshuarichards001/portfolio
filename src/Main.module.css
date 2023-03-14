@@ -72,7 +72,7 @@ html {
 .socials {
   display: flex;
   justify-content: space-between;
-  width: 170px;
+  width: 220px;
 }
 
 .socials > a > svg > path {
